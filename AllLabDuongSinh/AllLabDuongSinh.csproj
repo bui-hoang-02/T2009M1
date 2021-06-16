@@ -46,9 +46,14 @@
         <Compile Include="BaiLab4\Person.cs" />
         <Compile Include="BaiLab4\Staff.cs" />
         <Compile Include="BaiLab4\Student.cs" />
-        <Compile Include="BaiLab5\Customer.cs" />
-        <Compile Include="BaiLab5\Order.cs" />
-        <Compile Include="BaiLab5\MenuMain.cs" />
+        <Compile Include="BaiLab5\Ex1\Customer.cs" />
+        <Compile Include="BaiLab5\Ex1\MenuMain.cs" />
+        <Compile Include="BaiLab5\Ex1\Order.cs" />
+        <Compile Include="BaiLab5\Ex2\AmountException.cs" />
+        <Compile Include="BaiLab5\Ex2\HighSchoolTeacher.cs" />
+        <Compile Include="BaiLab5\Ex2\IEmployeeAction.cs" />
+        <Compile Include="BaiLab5\Ex2\Person.cs" />
+        <Compile Include="BaiLab5\Ex2\UniversityTeacher.cs" />
         <Compile Include="BaiLab7\Employee.cs" />
         <Compile Include="BaiLab7\EmployeeManager.cs" />
         <Compile Include="BaiLab7\Menu.cs" />

@@ -1,6 +1,6 @@
 using System;
 
-namespace AllLabDuongSinh.BaiLab5
+namespace AllLabDuongSinh.BaiLab5.Ex1
 {
     public class Customer
     {
