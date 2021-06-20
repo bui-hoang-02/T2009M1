@@ -2,6 +2,8 @@
 using AllLabDuongSinh.BaiLab2;
 using AllLabDuongSinh.BaiLab3;
 using AllLabDuongSinh.BaiLab5.Ex2;
+using BaiLab6.Ex2;
+using BaiLab6.Lab6Ex1;
 
 
 namespace AllLabDuongSinh
@@ -31,6 +33,25 @@ namespace AllLabDuongSinh
             //             break;
             //     }
             // }
+            
+        //Ex Lab 6
+            while (true)
+            {
+                Ex1 ex1 = new Ex1();
+                Menu menu = new Menu();
+                Console.WriteLine("1: Chạy bài ex1 lab 6.");
+                Console.WriteLine("2: Chạy bài ex2 lab 6.");
+                int choice = int.Parse(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1: 
+                        ex1.MenuEx1();
+                        break;
+                    case 2:
+                        menu.MenuEx2();
+                        break;
+                }
+            }
             
         //Ex Lab 5
             

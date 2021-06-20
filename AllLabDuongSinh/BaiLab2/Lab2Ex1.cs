@@ -3,7 +3,7 @@ using System.Text;
 
 namespace AllLabDuongSinh.BaiLab2
 {
-    public class Ex1
+    public class Lab2Ex1
     {
         public void BaoHienXaHoi()
         {

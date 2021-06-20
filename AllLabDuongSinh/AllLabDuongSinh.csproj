@@ -38,7 +38,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="BaiLab2\Ex1.cs" />
+        <Compile Include="BaiLab2\Lab2Ex1.cs" />
         <Compile Include="BaiLab3\Atom.cs" />
         <Compile Include="BaiLab3\Employee.cs" />
         <Compile Include="BaiLab4\Employee.cs" />
@@ -54,6 +54,11 @@
         <Compile Include="BaiLab5\Ex2\IEmployeeAction.cs" />
         <Compile Include="BaiLab5\Ex2\Person.cs" />
         <Compile Include="BaiLab5\Ex2\UniversityTeacher.cs" />
+        <Compile Include="BaiLab6\Ex2\Cooler.cs" />
+        <Compile Include="BaiLab6\Ex2\Heater.cs" />
+        <Compile Include="BaiLab6\Ex2\Menu.cs" />
+        <Compile Include="BaiLab6\Ex2\Thermostat.cs" />
+        <Compile Include="BaiLab6\Lab6Ex1\Ex1.cs" />
         <Compile Include="BaiLab7\Employee.cs" />
         <Compile Include="BaiLab7\EmployeeManager.cs" />
         <Compile Include="BaiLab7\Menu.cs" />
