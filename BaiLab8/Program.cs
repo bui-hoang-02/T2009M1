@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace BaiLab8
 {
@@ -7,35 +6,22 @@ namespace BaiLab8
     {
         public static void Main(string[] args)
         {
-            List<int> nhietdos = new List<int>();
-            nhietdos.Add(30);
-            nhietdos.Add(20);
-            nhietdos.Add(25);
-            nhietdos.Add(40);
-            nhietdos.Add(35);
-            var count = 0;
-            foreach (var nhietdo in nhietdos)
-            {
-                if (nhietdo >= 25)
-                {
-                    count++;
-                }
-            }
-
-            Console.WriteLine("Number of temperatures that equal or exceed 25 degrees are:"+ count);
-            Console.WriteLine("Number of temperatures that equal  or exceed 30 degrees are:"+ GreaterCount(nhietdos,30));
+            double[] temperatures = new double[100];
+            temperatures[0] = 20;
+            temperatures[1] = 23;
+            temperatures[2] = 30;
+            Console.WriteLine(GreaterCount(temperatures, 25));
         }
-        public static int GreaterCount(List<int> list, double min)
+        public static int GreaterCount(double[] enumerable, double min)
         {
             var count = 0;
-            foreach (var temperature in list)
+            foreach (var temperature in enumerable)
             {
-                if (temperature >= min)
+                if ((double) temperature >= min)
                 {
                     count++;
                 }
             }
-
             return count;
         }
     }
